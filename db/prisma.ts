@@ -5,7 +5,7 @@ import { PrismaClient } from '@prisma/client';
 //import { PrismaClientOptions } from '@/lib/generated/prisma/runtime/library';
 import ws from 'ws';
 
-console.log(">> Loaded DATABASE_URL:", process.env.DATABASE_URL);
+//console.log(">> Loaded DATABASE_URL:", process.env.DATABASE_URL);
 // Sets up WebSocket connections, which enables Neon to use WebSocket communication.
 neonConfig.webSocketConstructor = ws;
 const connectionString = `${process.env.DATABASE_URL}`;
