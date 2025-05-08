@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Will still allow production build with type errors!
+  //ignoreBuildErrors: true,
 };
 
 export default nextConfig;
